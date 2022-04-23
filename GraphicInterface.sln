@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicInterface", "GraphicInterface\GraphicInterface.csproj", "{048F9429-084E-46AB-8FF2-8D81A76833D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphicInterface", "GraphicInterface\GraphicInterface.csproj", "{048F9429-084E-46AB-8FF2-8D81A76833D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcClass", "CalcClass\CalcClass.csproj", "{3955F698-4441-4B58-A118-41AB0B006064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{048F9429-084E-46AB-8FF2-8D81A76833D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{048F9429-084E-46AB-8FF2-8D81A76833D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{048F9429-084E-46AB-8FF2-8D81A76833D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3955F698-4441-4B58-A118-41AB0B006064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3955F698-4441-4B58-A118-41AB0B006064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3955F698-4441-4B58-A118-41AB0B006064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3955F698-4441-4B58-A118-41AB0B006064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
