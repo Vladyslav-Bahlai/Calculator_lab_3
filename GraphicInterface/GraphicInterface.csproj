@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AnalyzerClass\AnalyzerClass.csproj" />
+  </ItemGroup>
+
 </Project>
