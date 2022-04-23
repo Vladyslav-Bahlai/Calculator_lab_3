@@ -632,6 +632,7 @@ namespace GraphicInterface
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+
     }
 }
 
