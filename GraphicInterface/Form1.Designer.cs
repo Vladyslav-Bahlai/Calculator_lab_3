@@ -163,6 +163,7 @@ namespace GraphicInterface
             this.backBtn.TabIndex = 17;
             this.backBtn.Text = "Backspace";
             this.backBtn.UseVisualStyleBackColor = false;
+            this.backBtn.Click += new System.EventHandler(this.backspaceBtn_click);
             // 
             // clearBtn
             // 
@@ -176,6 +177,7 @@ namespace GraphicInterface
             this.clearBtn.TabIndex = 16;
             this.clearBtn.Text = "C";
             this.clearBtn.UseVisualStyleBackColor = false;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_click);
             // 
             // button2
             // 
@@ -189,6 +191,7 @@ namespace GraphicInterface
             this.button2.TabIndex = 15;
             this.button2.Text = "(";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // button1
             // 
@@ -202,6 +205,7 @@ namespace GraphicInterface
             this.button1.TabIndex = 13;
             this.button1.Text = ")";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // tableLayoutPanel2
             // 
@@ -303,6 +307,7 @@ namespace GraphicInterface
             this.addBtn.TabIndex = 15;
             this.addBtn.Text = "+";
             this.addBtn.UseVisualStyleBackColor = false;
+            this.addBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // rightParentBtn
             // 
@@ -316,6 +321,7 @@ namespace GraphicInterface
             this.rightParentBtn.TabIndex = 14;
             this.rightParentBtn.Text = "mod";
             this.rightParentBtn.UseVisualStyleBackColor = false;
+            this.rightParentBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // zeroBtn
             // 
@@ -329,6 +335,7 @@ namespace GraphicInterface
             this.zeroBtn.TabIndex = 13;
             this.zeroBtn.Text = "0";
             this.zeroBtn.UseVisualStyleBackColor = false;
+            this.zeroBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // leftParentBtn
             // 
@@ -342,6 +349,7 @@ namespace GraphicInterface
             this.leftParentBtn.TabIndex = 12;
             this.leftParentBtn.Text = "+/-";
             this.leftParentBtn.UseVisualStyleBackColor = false;
+            this.leftParentBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // subBtn
             // 
@@ -355,6 +363,7 @@ namespace GraphicInterface
             this.subBtn.TabIndex = 11;
             this.subBtn.Text = "-";
             this.subBtn.UseVisualStyleBackColor = false;
+            this.subBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // nineBtn
             // 
@@ -368,6 +377,7 @@ namespace GraphicInterface
             this.nineBtn.TabIndex = 10;
             this.nineBtn.Text = "9";
             this.nineBtn.UseVisualStyleBackColor = false;
+            this.nineBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // eightBtn
             // 
@@ -381,6 +391,7 @@ namespace GraphicInterface
             this.eightBtn.TabIndex = 9;
             this.eightBtn.Text = "8";
             this.eightBtn.UseVisualStyleBackColor = false;
+            this.eightBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // sevenBtn
             // 
@@ -394,6 +405,7 @@ namespace GraphicInterface
             this.sevenBtn.TabIndex = 8;
             this.sevenBtn.Text = "7";
             this.sevenBtn.UseVisualStyleBackColor = false;
+            this.sevenBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // multBtn
             // 
@@ -407,6 +419,7 @@ namespace GraphicInterface
             this.multBtn.TabIndex = 7;
             this.multBtn.Text = "*";
             this.multBtn.UseVisualStyleBackColor = false;
+            this.multBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // sixBtn
             // 
@@ -420,6 +433,7 @@ namespace GraphicInterface
             this.sixBtn.TabIndex = 6;
             this.sixBtn.Text = "6";
             this.sixBtn.UseVisualStyleBackColor = false;
+            this.sixBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // fiveBtn
             // 
@@ -433,6 +447,7 @@ namespace GraphicInterface
             this.fiveBtn.TabIndex = 5;
             this.fiveBtn.Text = "5";
             this.fiveBtn.UseVisualStyleBackColor = false;
+            this.fiveBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // fourBtn
             // 
@@ -446,6 +461,7 @@ namespace GraphicInterface
             this.fourBtn.TabIndex = 4;
             this.fourBtn.Text = "4";
             this.fourBtn.UseVisualStyleBackColor = false;
+            this.fourBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // divideBtn
             // 
@@ -459,6 +475,7 @@ namespace GraphicInterface
             this.divideBtn.TabIndex = 3;
             this.divideBtn.Text = "/";
             this.divideBtn.UseVisualStyleBackColor = false;
+            this.divideBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // threeBtn
             // 
@@ -472,6 +489,7 @@ namespace GraphicInterface
             this.threeBtn.TabIndex = 3;
             this.threeBtn.Text = "3";
             this.threeBtn.UseVisualStyleBackColor = false;
+            this.threeBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // twoBtn
             // 
@@ -485,6 +503,7 @@ namespace GraphicInterface
             this.twoBtn.TabIndex = 1;
             this.twoBtn.Text = "2";
             this.twoBtn.UseVisualStyleBackColor = false;
+            this.twoBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // oneBtn
             // 
@@ -499,6 +518,7 @@ namespace GraphicInterface
             this.oneBtn.TabIndex = 0;
             this.oneBtn.Text = "1";
             this.oneBtn.UseVisualStyleBackColor = false;
+            this.oneBtn.Click += new System.EventHandler(this.symbolBtn_click);
             // 
             // tableLayoutPanel5
             // 
@@ -532,6 +552,7 @@ namespace GraphicInterface
             this.button6.TabIndex = 7;
             this.button6.Text = "MC";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.mcBtn_click);
             // 
             // button4
             // 
@@ -545,6 +566,7 @@ namespace GraphicInterface
             this.button4.TabIndex = 5;
             this.button4.Text = "=";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.equalBtn_click);
             // 
             // button3
             // 
@@ -558,6 +580,7 @@ namespace GraphicInterface
             this.button3.TabIndex = 4;
             this.button3.Text = "MR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.mrBtn_click);
             // 
             // button5
             // 
@@ -571,6 +594,7 @@ namespace GraphicInterface
             this.button5.TabIndex = 6;
             this.button5.Text = "M+";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.mPlusBtn_click);
             // 
             // Form1
             // 
